@@ -23,7 +23,7 @@ def daily_std(data):
 
     :param data: A 2D data array with inflammation data
         (each row contains measurements for a single patient across all days).
-    :returns: An array of mean values of measurements for each day.
+    :returns: An array of standard deviation values of measurements for each day.
     """
     return np.std(data, axis=0)
 
